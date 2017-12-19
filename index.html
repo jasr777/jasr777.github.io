@@ -1,1 +1,59 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" ng-app="PeliculasEOI">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Peliculas EOI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"     rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="libs/angularjs-slider/dist/rzslider.css">
+
+</head>
+
+<body>
+  
+
+
+<div ng-view></div>
+
+
+    <!-- jQuery -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Angular --> 
+
+    <script src="libs/angular.js"></script>
+    <script src="libs/angular-route.js"></script>
+
+    <! -- AngularJS Slider --> 
+    <script src="libs/angularjs-slider/dist/rzslider.min.js"></script>
+
+    <!-- Module -->
+
+    <script src="js/app.config.js"></script>
+
+    <!-- Factories --> 
+
+    <script src="js/factories/TheMovieDB.factory.js"></script>
+    <
+    <script src="js/factories/OMDB.factory.js"></script>
+    <!--
+    <script src="js/factories/OpenSubtitles.factory.js"></script>
+    -->
+    <!-- Controllers -->
+
+    <script src="js/controllers/HomeController.controller.js"></script>
+
+    <script src="js/controllers/MovieController.controller.js"></script>
+
+</body>
+
+</html>
