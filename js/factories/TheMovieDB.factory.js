@@ -397,7 +397,7 @@
                 parsedMovie = Object.assign({}, movies[i]);
 
                 parsedMovie.fallback_poster = "img/generic-film.jpg";
-                parsedMovie.regular_poster =config.base_url.replace("http","https") + config.poster_sizes[3] + movies[i].poster_path;
+                parsedMovie.regular_poster = config.base_url.replace("http","https") + config.poster_sizes[3] + movies[i].poster_path;
                 parsedMovie.poster = config.base_url.replace("http","https") + config.poster_sizes[4] + movies[i].poster_path;
                 parsedMovies.push(parsedMovie);
             }
