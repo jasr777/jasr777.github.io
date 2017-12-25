@@ -66,9 +66,19 @@ aside{
     position:fixed;
 }
 main {
-        border-left: 1px solid #e9ecee;
+    border-left: 1px solid #e9ecee;
+    animation-name: slideup;
+    animation-duration: 0.2s;
 
 }
+
+@keyframes slideup {
+    from {bottom:-300px; opacity:0}
+    to {bottom:0; opacity:1}
+}
+
+
+
 aside p{
     margin : 20px 0px;
     font-weight:600;
@@ -81,13 +91,23 @@ hr{
     border: 1px solid #e9ecee;
 }
 
-
+.logo {
+    cursor : pointer;
+}
 .min-buffer{
     margin-left:14px;
 }
+
+
+.reset-button {
+    margin-top : 40px;
+}
+
+.dropdown-alignment{
+    margin-left : 89%;
+}
 /*Slider styles */ 
 
-/* Mirar documentacion angularjs slider*/
 
 
 
@@ -148,7 +168,6 @@ hr{
     color:red;
     text-decoration :underline;
  }
-
 .genre-btn{
     width:115px;
     height :33px;
@@ -324,7 +343,7 @@ hr{
 }
 .rating-alignment{
     color : #c0c4c8;
-    margin-left:73%;
+    margin-left:67%;
     margin-top:20px;
 }
 
