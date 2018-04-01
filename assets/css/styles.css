@@ -137,7 +137,25 @@ ul{
     
 }
  ul li {
-    flex-grow : 1;
+    flex-grow : 1;   
+}
+ul li a {
+    color:#2c3e50;
+}
+ul li a:hover {
+    color : #1abc9c;
+}
+
+.hover-line {
+    width: 41px;
+    height:5px;
+    background-color: #1abc9c;
+    display:none;
+    position:absolute;
+    top:0px;
+}
+ul li:hover .hover-line {
+    display:block;
 }
 
 .logo {
