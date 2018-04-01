@@ -161,6 +161,9 @@ ul{
     line-height: 50px;
 
 }
+ol {
+    padding-top:10px;
+}
 
 ol li {
     font-size: 24px;
@@ -171,15 +174,25 @@ ol li {
     padding-bottom:20px;
 }
 ol li i {
-    font-size : 12px;
+    font-size : 16px;
     text-align : center; 
-    padding:15px;    
+    padding:8px;
+    background-color: #fff;   
+    border-radius :50%;
+    margin:auto;
+    display:inline;
+    border :1px solid #cacaca;
 }
 
-ol li a:active {
-    background-color: #000;
-
+ol li:hover i {
+    color :#21c2f8;
+    box-shadow: 0 0 0 5px #fff;
 }
+ol li  p {
+    display:inline;
+    padding-left:10px;
+}
+
 
 .line {
     width: 270px;
@@ -364,8 +377,7 @@ ol li a:active {
     align-items: center;
     border-right : 1px solid #eceef0;
     border-left: 1px solid #eceef0;
-    border-bottom: 1px solid #eceef0;
-    
+    border-bottom: 1px solid #eceef0;    
     border-radius:0px 0px 3px 3px;
     padding :20px;
 }
